@@ -1,0 +1,11 @@
+yarn init -> Inicia o projeto Node;
+
+yarn add -> Adiciona dependencia, pode ser utilizado -D para dep. desenvolvedor
+
+Para inicicializar um projeto TypeScript
+  - yarn add typescript -D
+  - yarn add ts-node-dev -D
+  - Configurar script no package.json
+
+yarn typeorm migration:create -n /*Nome da migration*/ -> Criar uma Migration
+yarn typeorm migration:run -> Roda as Migration
